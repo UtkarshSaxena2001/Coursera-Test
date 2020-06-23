@@ -7,33 +7,34 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <title>Module3-solution</title>
+    <title>sushi</title>
 </head>
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
+	<!--Navbar-->
+<nav id="header-nav" class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <div class="navbar-brand">
                         <a href="index.html"><h1>Food, LLC</h1></a>
                     </div>
 
-                    <button type="button" class="navbar-toggle collapsed d-block d-sm-none" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" aria-control="navbar" data-target="#navbar">
-            		<span class="navbar-toggler-icon">&#9776;</span>
+                    <button type="button" class="navbar-toggle collapsed d-block d-sm-none" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <div id="navbarNav" class="collapse navbar-collapse">
+                    		<ul id="nav-list" class="nav navbar-nav navbar-right d-block d-sm-none text-center">
+                        		<li class="nav-item">
+                            		<a href="chicken.html" class="nav-link">Chicken</a>
+                        		</li>
+                        		<li class="nav-item">
+                            		<a href="#beef-tile" class="nav-link">Beef</a>
+                        		</li>
+                        		<li class="nav-item">
+                            		<a href="sushi.html" class="nav-link">Sushi</a>
+                        		</li>
+                    		</ul>
+                		</div>
+                		&#9776;
                     </button>
-                    <div id="defaultNavbar1" class="collapse navbar-collapse">
-                    	<ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-block d-sm-none text-center">
-                        	<li class="nav-item">
-                            	<a href="chicken.html" class="nav-link active">Chicken</a>
-                        	</li>
-                        	<li class="nav-item">
-                            	<a href="beef.html" class="nav-link">Beef</a>
-                        	</li>
-                        	<li class="nav-item">
-                            	<a href="sushi.html" class="nav-link">Sushi</a>
-                        	</li>
-                    	</ul>
-                	</div>
                 </div>
             </div>
         </nav>
@@ -130,6 +131,7 @@
                     </section>
                 </div>
             </div>
+            <!-- <div class="clearfix visible-md-block"></div> -->
             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div id="sushi-tile">
                     <section>
@@ -174,6 +176,7 @@
                     </section>
                 </div>
             </div>
+            <!-- <div class="clearfix visible-lg-block"></div> -->
         </div>
     </div>
     <div class="clearfix visible-lg-block"></div>
